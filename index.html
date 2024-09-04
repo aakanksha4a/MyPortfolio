@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d62e23938f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span> Aakanksha</span> <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image 1.jpg "   >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I’m Aakanksha Solanki, a passionate Frontend Designer with a knack for crafting beautiful and user-friendly web pages. With a solid foundation in web design from my internship at Indore Municipal Corporation, I’ve honed my skills in creating engaging and innovative designs that enhance user experience.
+
+                        My journey in frontend design began with a fascination for how design and technology intersect to create seamless digital experiences. At Indore Municipal Corporation, I gained valuable hands-on experience working on a variety of web design projects, where I learned to blend functionality with aesthetics to meet both user needs and business goals.
+                        
+                        I thrive on experimenting with new design trends and techniques, and I’m always eager to tackle new challenges that push the boundaries of conventional web design. Whether it’s creating responsive layouts, optimizing user interfaces, or implementing modern design principles, I approach each project with creativity and attention to detail.
+                        
+                        When I’m not designing, I enjoy exploring new design tools and staying updated with the latest industry trends. I’m also a keen advocate of continuous learning and love to collaborate with others to bring fresh ideas to life.
+                        
+                        Feel free to explore my portfolio to see some of my recent work.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')"> Skills</p>
+<p class="tab-links" onclick="opentab('Experience')"> Experience</p>
+<p class="tab-links" onclick="opentab('Education')">Education </p>
+                        </div>
+                        <div class="tab-contents" id="Skills">  <ul>
+                            <li><span>UI/UX </span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br> Web/App Development</li>
+                            <li><span>App development</span><br>building andriod app designs</li>
+                          </ul>
+                        </div>
+                        <div class="tab-contents " id="Experience" >
+                            <ul>
+                                <li><span>2023 - 2024 </span><br>Internship at indore municipal corporation</li>
+                                <li><span>Web Development</span><br> Web/App Development</li>
+                                <li><span>App development</span><br>building andriod app designs</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents  " id="Education">
+                            <ul>
+                                <li><span>2024</span><br>B.tech cse from Oriental University Indore</li>
+                                <li><span>2020</span><br> 12th(PCM)from M.P. Board</li>
+                                <li><span>2018</span><br>10th from M.P. Board</li>
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> My journey in frontend design began with a fascination for how design and technology intersect to create seamless digital experiences. At Indore Municipal Corporation, I gained valuable hands-on experience working on a variety of web design projects, where I learned to blend functionality with aesthetics to meet both user needs and business goals.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> My journey in frontend design began with a fascination for how design and technology intersect to create seamless digital experiences. At Indore Municipal Corporation, I gained valuable hands-on experience working on a variety of web design projects, where I learned to blend functionality with aesthetics to meet both user needs and business goals.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p> My journey in frontend design began with a fascination for how design and technology intersect to create seamless digital experiences. At Indore Municipal Corporation, I gained valuable hands-on experience working on a variety of web design projects, where I learned to blend functionality with aesthetics to meet both user needs and business goals.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-----portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/image1.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>the app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="image/image2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>the app helps you to listen and download music for free.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/image3.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>the app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>solankiaakanksha91@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7987129139</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="image/AK Resume_065254.pdf" download  class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright © Aakanksha solanki sept.
+            
+            2024 .This work cannot be modified without owner's permission </p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+
+                
+          
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            } 
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            } 
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz4RWl6VbYkcs8sjTar4i2lJq-xulWw4XGeOOo-_hAwCQuD7-DBh0vCJa6J1dEIb60O/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+  
+</body>
+</html>
